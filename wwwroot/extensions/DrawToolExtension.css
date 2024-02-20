@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Styles for DrawTool Extension */
 
 .draw-tool-button {
@@ -56,3 +57,18 @@
     border: 1px solid #ccc;
     border-radius: 2px;
 }
+=======
+#box-draw-tool-button {
+    background-image: url(/assets/left-view.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sphere-draw-tool-button {
+    background-image: url(/assets/sphere.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+>>>>>>> bdee01e (POC)
