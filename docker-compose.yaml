@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    container_name: lurtis-model-viewer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      NODE_ENV: development
